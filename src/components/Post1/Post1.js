@@ -51,14 +51,7 @@ export default function Post1({post}) {
       <span>  people like it</span>
         </div>
             <br/>
-            <div>
-            <Card>
-      <AddComments/>
-           <Commentslist />
-            </Card>
-             
-                        </div>
-            </div>
+                      </div>
             
   </CardActions>
 

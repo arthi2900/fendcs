@@ -19,8 +19,6 @@ import { Context } from '../../context/Context';
 export default function Post({post}) {
 
   const { user} = useContext(Context);
-const p1=`${post._id}`;
-const u1=`${user.username}`;
    const PF="http://localhost:5000/images/";
           return (
     <div className='Post'>
